@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="体验环境手机：iPhone7 系统版本：iOS 12.3.1 APP版本：马上金融 V4.10.25 体验时间：2019年7月15日 分析目的 探寻消费金融行业的商业模式和市场格局 分析马上金融 App 产品的功能及用户体验 针对此次体验，提出一点改进意见 总结消费金融行业的商业模式并得出思考  消费金融市场现状在进行产品分析之前，笔者认为有必要对目前消费金融行业的情况进行简要分析（经济学上常把投">
+<meta property="og:type" content="article">
+<meta property="og:title" content="马上金融用户体验报告 ">
+<meta property="og:url" content="http://yoursite.com/2019/07/16/马上金融用户体验报告/index.html">
+<meta property="og:site_name" content="chaixiaomu">
+<meta property="og:description" content="体验环境手机：iPhone7 系统版本：iOS 12.3.1 APP版本：马上金融 V4.10.25 体验时间：2019年7月15日 分析目的 探寻消费金融行业的商业模式和市场格局 分析马上金融 App 产品的功能及用户体验 针对此次体验，提出一点改进意见 总结消费金融行业的商业模式并得出思考  消费金融市场现状在进行产品分析之前，笔者认为有必要对目前消费金融行业的情况进行简要分析（经济学上常把投">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://5b0988e595225.cdn.sohucs.com/images/20180424/730079f5ce4e470ab21e28b04ed45040.jpg">
+<meta property="og:image" content="http://5b0988e595225.cdn.sohucs.com/images/20180424/2f069638aedf462cb8c57efb03377143.jpg">
+<meta property="og:image" content="http://5b0988e595225.cdn.sohucs.com/images/20180424/f93ee42555864bc6bb27bd81a22ac043.jpg">
+<meta property="og:image" content="https://miao.su/images/2019/07/15/-v4.10.2583c76.png">
+<meta property="og:image" content="https://miao.su/images/2019/07/15/WechatIMG99341515.md.jpg">
+<meta property="og:image" content="https://miao.su/images/2019/07/15/H593349.png">
+<meta property="og:image" content="https://miao.su/images/2019/07/15/WechatIMG994cd89f.md.jpg">
+<meta property="og:updated_time" content="2019-07-16T01:57:51.598Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="马上金融用户体验报告 ">
+<meta name="twitter:description" content="体验环境手机：iPhone7 系统版本：iOS 12.3.1 APP版本：马上金融 V4.10.25 体验时间：2019年7月15日 分析目的 探寻消费金融行业的商业模式和市场格局 分析马上金融 App 产品的功能及用户体验 针对此次体验，提出一点改进意见 总结消费金融行业的商业模式并得出思考  消费金融市场现状在进行产品分析之前，笔者认为有必要对目前消费金融行业的情况进行简要分析（经济学上常把投">
+<meta name="twitter:image" content="http://5b0988e595225.cdn.sohucs.com/images/20180424/730079f5ce4e470ab21e28b04ed45040.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'chaixiaomu'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2019/07/16/马上金融用户体验报告/">
+
+
+
+
+
+  <title>马上金融用户体验报告  | chaixiaomu</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">chaixiaomu</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Nintendo Switch</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/16/马上金融用户体验报告/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="chaixiaomu">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/WechatIMG370.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="chaixiaomu">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">马上金融用户体验报告 </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-16T09:56:54+08:00">
+                2019-07-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="体验环境"><a href="#体验环境" class="headerlink" title="体验环境"></a>体验环境</h2><p>手机：iPhone7</p>
+<p>系统版本：iOS 12.3.1</p>
+<p>APP版本：马上金融 V4.10.25</p>
+<p>体验时间：2019年7月15日</p>
+<h2 id="分析目的"><a href="#分析目的" class="headerlink" title="分析目的"></a>分析目的</h2><ul>
+<li>探寻消费金融行业的商业模式和市场格局</li>
+<li>分析马上金融 App 产品的功能及用户体验</li>
+<li>针对此次体验，提出一点改进意见</li>
+<li>总结消费金融行业的商业模式并得出思考</li>
+</ul>
+<h2 id="消费金融市场现状"><a href="#消费金融市场现状" class="headerlink" title="消费金融市场现状"></a>消费金融市场现状</h2><p>在进行产品分析之前，笔者认为有必要对目前消费金融行业的情况进行简要分析（经济学上常把投资、消费、出口比喻为拉动GDP增长的“三驾马车”，这是对经济增长原理最生动形象的表述）。可以总结为五点：</p>
+<ul>
+<li><strong>强监管</strong></li>
+<li><strong>蓝海万亿级市场</strong></li>
+<li><strong>稳格局（1银行系+4非银系）</strong></li>
+<li><strong>金融持牌机构将迎来重大机遇</strong></li>
+<li><strong>借力科技，覆盖多场景</strong></li>
+</ul>
+<h4 id="强监管"><a href="#强监管" class="headerlink" title="强监管"></a>强监管</h4><p>行业监管不断规范，各类业务逐步纳入金融监管体系。经历了近几年互联网消费金融集中爆发的风险外溢事件之后，类似校园贷等分期购物平台遭遇到了政府监管的强监管，针对大学生的校园贷被国家明确取缔。对于行业发展来说，此时是典型的去泡沫去杠杆时期，虽短时间内行业发展会遭受挫折，遇到“寒冰期”，但对于未来合规化、成熟化的行业发展和市场运作是必要和有利的。</p>
+<h4 id="蓝海万亿级市场"><a href="#蓝海万亿级市场" class="headerlink" title="蓝海万亿级市场"></a>蓝海万亿级市场</h4><h5 id="消费信贷前景可期"><a href="#消费信贷前景可期" class="headerlink" title="消费信贷前景可期"></a>消费信贷前景可期</h5><p>在经济下行的压力下，以往三驾马车主要依靠投资，而现在则转向消费驱动。从核算角度看，2018年前三季度最终消费支出对经济增长的贡献率是78%，比上年同期提高了14个百分点。</p>
+<p><strong>消费有增长空间，消费金融企业就有发展。</strong>《前瞻产业研究院》显示，当前我国居民消费在GDP中所占的比重在35%以下，而美国该数值在60%以上，日本也维持在50%，数据上的差异表明我国当前经济结构发展尚未成熟，经济增长方式从投资拉动、外贸驱动逐步转向消费带动还有很大的转化潜力。此外，目前国家共发了放了28张消费金融牌照，消费金融企业中消费金融公司就占了24张。无论是从供给还是需求任何一方来看，消费金融企业前景可期。</p>
+<h5 id="信贷需求难以被满足"><a href="#信贷需求难以被满足" class="headerlink" title="信贷需求难以被满足"></a><strong>信贷需求难以被满足</strong></h5><p>央行个人征信记录收录了8.6亿人，但有信贷记录的仅占一亿多人，传统银行等金融机构给贷款申请者放款审批时，通常会参考申请者在央行的个人征信记录，从而判断是否放款。而央行无征信人群基数较大，该群体的消费信贷需求难以被满足。</p>
+<p>无央行征信人群覆盖群体基数较大，随着消费需求的增加、消费升级与消费结构的变化，传统食品、衣着等支出逐渐下降，人们更愿意将钱花在享受和投资上。休闲娱乐、医疗护理、3C等数码产品的占比逐渐增加，由此催生了这些领域的消费金融的快速发展，但其坏账率明显高于行业平均水平。</p>
+<p><img src="http://5b0988e595225.cdn.sohucs.com/images/20180424/730079f5ce4e470ab21e28b04ed45040.jpg" alt="img"></p>
+<p>清华大学中国与世界经济研究中心主任、中国经济思想与实践研究院院长，李稻葵表示，未来中国消费金融行业发展前景很好，2019年的关键字是“变”，消费金融相关政策已经出现了本质性的、方向性的调整。随着中国消费对经济的贡献度增加、消费贷款在贷款总规模盘子中比重增加、消费贷款中房贷、车贷等中长期贷款比重降低，消费金融公司可以凭借其自身优势大力拓展与商业银行错位发展的无抵押、无担保消费贷款，使无抵押、无担保消费贷款在整体消费贷款中比例大幅上升，消费金融公司将迎来万亿蓝海市场。</p>
+<h4 id="稳格局（1银行系-4非银系）"><a href="#稳格局（1银行系-4非银系）" class="headerlink" title="稳格局（1银行系+4非银系）"></a>稳格局（1银行系+4非银系）</h4><h5 id="产业结构"><a href="#产业结构" class="headerlink" title="产业结构"></a><strong>产业结构</strong></h5><p>互联网消费金融产业结构主要包括资金提供方、服务商与消费群体，除此之外银监会负责监管，征信与大数据提供信用报告，催帐机构催收欠款。</p>
+<p><img src="http://5b0988e595225.cdn.sohucs.com/images/20180424/2f069638aedf462cb8c57efb03377143.jpg" alt="img"></p>
+<h5 id="市场格局"><a href="#市场格局" class="headerlink" title="市场格局"></a>市场格局</h5><p>目前消费金融领域的格局为：1银行系+4非银行系，<strong>主要分为垂直分期购平台、电商类消费金融、消费金融公司、银行机构互联网化以及P2P平台。</strong>截至目前，互联网消费金融在不同领域迅速发展，并形成了几种代表性的模式，一类是主打分期购物互联网消费金融平台，如趣分期、乐分期等；一类是电商平台的消费金融，以蚂蚁金服、京东金融、苏宁金融为代表；一类是P2P平台，以人人贷、拍拍贷等为代表；一类是消费金融公司，以中银消费金融、马上金融等为代表；一类是以银行为代表的传统金融公司互联网化，比如招行消费金融等。</p>
+<ul>
+<li><strong>垂直分期购平台</strong>，<strong>根据应用场景的不同，分为不同类分期购平台，深耕细分领域，融资成本高</strong>。</li>
+<li><strong>电商类消费金融</strong>，<strong>依托自有消费场景，拥有稳定、高消费能力的用户。</strong></li>
+<li><strong>消费金融公司</strong>，<strong>银行与产业的强强联合，更具普惠金融特征。</strong></li>
+<li><strong>中银消费金融</strong>，<strong>主要业务包括信用贷款、商户专享贷和互联网贷款</strong>。</li>
+<li><strong>P2P平台</strong>，<strong>以现金贷为主，野蛮式成长之后将迎来行业与法律法规重点监管</strong>。</li>
+</ul>
+<h4 id="金融持牌机构将迎来重大机遇"><a href="#金融持牌机构将迎来重大机遇" class="headerlink" title="金融持牌机构将迎来重大机遇"></a>金融持牌机构将迎来重大机遇</h4><p>强监管下，消费金融持牌机构具有先发优势。当前互联网消费金融行业正处在监管的风口浪尖，按照监管做金融必须持牌的要求，银行和消费金融公司等持牌机构将会成为互联网消费金融的主角，由于银行的受众群体和风险风控能力承受度较低，消费金融公司无疑成为最大赢家。</p>
+<p><img src="http://5b0988e595225.cdn.sohucs.com/images/20180424/f93ee42555864bc6bb27bd81a22ac043.jpg" alt="img"></p>
+<p><strong>2017年下半年，消费金融公司起开了一波增资潮</strong>，“增资潮”就是在增加企业总资本，提高资本充足率，由于通过提高实缴资本，借贷额度、同业拆入资金的额度也会提高，从而达到加大覆盖率、扩大市场份额的作用。与此同时，纷纷增资也代表了消费金融公司普遍看好后续市场，以此方式加大投入做强做大，从而抢占市场份额。</p>
+<h4 id="借力科技，覆盖多场景"><a href="#借力科技，覆盖多场景" class="headerlink" title="借力科技，覆盖多场景"></a>借力科技，覆盖多场景</h4><p>从调查数据来看，消费信贷的用途较为宽泛，满足了消费者在各个方面的消费需求。相比比重方面，买家电占比为26%，教育培训、旅游、家庭装修和非车交通工具比重分别为16.4%、10%、13.6%和7.8%。</p>
+<p>金融消费多场景的发展，离不开科技的助力。消费金融企业目前正在运用互联网技术，创新金融服务手段、提升金融行业资源配置效率；并利用互联网+等技术手段，优化金融服务渠道、创新手段，通过手机、APP、网上直销、电子商务平台等渠道，构建线下网点和线上补充的业务网络体系。</p>
+<p>正是在科技的支撑下，消费金融得以覆盖更多场景，目前消费金融公司的布局主要集中于商业银行“无暇”顾及的细分领域，范围涵盖大众消费、婚庆、家政、养老、健康消费、信息消费、旅游休闲消费、教育文化体育消费等消费热点领域。</p>
+<p>业内人士认为，在新监管和去杠杆形势下，通过不断开发消费新场景并嵌入金融服务将是消费金融公司主要发展方向。随着互金平台陆续退出，持牌机构头部公司则需要不断规范自身行为强化龙头效应。未来，科技手段提高风控能力有望成为消费金融公司的护城河，利用降低逾期风险等方式提高平台收入利润，并依靠细分领域消费场景，获得多元化获客渠道。</p>
+<h2 id="用户分析"><a href="#用户分析" class="headerlink" title="用户分析"></a>用户分析</h2><p>除消费不断增长外，消费者的消费行为正在不断改变。80、90后已逐渐成为主要消费人群，与传统消费群体不同，新兴消费群体的消费观念更加超前，价格已不再是决定消费的唯一因素，借贷观念更易被接受；此外，受消费升级影响，三、四线等小镇城市消费人群的消费水平也在不断提高。</p>
+<p>清华大学中国经济思想与实践研究院发布《2018中国消费信贷市场研究》（下称“报告”）显示，居民消费信贷的客户18岁至29岁的在校及刚毕业的群体占比36%，是几大群体中占比最多的。30—39岁群体占比为30%，40—49岁群体占比为33%，50岁以上中老年群体则很少有使用消费信贷的。</p>
+<p>在收入分布上，月收入在2000—4999的群体占样本总数的70%，其次为5000—9999元群体，2000元以下低收入群体和10000元以上高收入群体里消费金融行为较少。</p>
+<p>在教育程度方面，本专科生所占比例最大，专科生占比57.5%，本科生占比24.5%。一方面是因为本专科生毕业后与研究生以上学历群体相比工资相对较低，另一方面也可能是他们接受了较高水平教育后对消费信贷方面的了解比高中以下群体更多。</p>
+<p>调查结果表明职业和收入较为稳定的企业员工和公务员事业单位人员是消费信贷的客户主体，占比达到84%。</p>
+<p>著名经济学家、北京大学经济学院特聘教授陈志武曾发文表示：“消费金融的主体是年轻人才符合经济学规律。对于老年人甚至很多中年人来说，消费金融的意义不是太大，他们不需要这些金融工具的支持，而年轻人有很强烈的消费需要，用一些金融工具很正常。老年人是不需要消费金融支持的，因为他们一辈子的收入潜力都已经实现得差不多了。年轻人未来的收入潜力巨大，所以，消费金融在相当程度上是针对年轻人的。”</p>
+<h2 id="马上金融产品简介"><a href="#马上金融产品简介" class="headerlink" title="马上金融产品简介"></a>马上金融产品简介</h2><h3 id="官方产品简介"><a href="#官方产品简介" class="headerlink" title="官方产品简介"></a><strong>官方产品简介</strong></h3><p>马上金融APP是由马上消费金融股份有限公司（以下简称“马上消费金融”）研发搭建的信贷平台，平台上已有产品包括马上贷，马上钱包，商品贷等。马上消费金融致力于为中国国内居民提供更为便捷的个人消费金融服务。</p>
+<ol>
+<li>“马上贷”是一款为用户提供快速小额贷款的信贷产品。用户随时随地都可申请贷款。最快三分钟即可完成审批和放款，解用户燃眉之急。根据用户个人情况，提供1000-5000元的借款额度，更贴心配置灵活还款服务，用户可个性化选择还款周期及还款方式。</li>
+<li>“马上钱包”主要向具有稳定、持续收入的客户提供个人信用循环额度贷款，可循环使用。根据客户的社保缴纳情况最高可为客户提供5万提现额度，是用户个人的信用钱包。随时随地，灵活提现，自由还款。</li>
+<li>“商品贷”是用户在特定消费场景使用的分期消费贷款产品。用户选定商品后，通过“马上金融”可申请商品分期贷款服务。最高可申请20万，分期期限可依据用户需求私人定制。你购物，我买单，消费更轻松~</li>
+</ol>
+<h3 id="产品定位"><a href="#产品定位" class="headerlink" title="产品定位"></a>产品定位</h3><p>马上金融，幸福提前—马上消费金融致力于为中国国内居民提供更为便捷的个人消费金融服务。</p>
+<h2 id="功能分析"><a href="#功能分析" class="headerlink" title="功能分析"></a>功能分析</h2><h3 id="产品架构"><a href="#产品架构" class="headerlink" title="产品架构"></a>产品架构</h3><p>先上主要功能结构图，为了方便清晰观看，去掉了一些次要分类：</p>
+<p><img src="https://miao.su/images/2019/07/15/-v4.10.2583c76.png" alt="-v4.10.2583c76.png"></p>
+<h3 id="核心功能"><a href="#核心功能" class="headerlink" title="核心功能"></a>核心功能</h3><h4 id="登录"><a href="#登录" class="headerlink" title="登录"></a>登录</h4><h5 id="手机号-验证码登录"><a href="#手机号-验证码登录" class="headerlink" title="手机号+验证码登录"></a>手机号+验证码登录</h5><p>马上金融支持两种登录方式：手机号+密码和第三方快捷登录（微信、支付宝）。登录流程很简单，就是输入手机号和密码后进行相关判断，如果手机号和密码都正确则登录app。</p>
+<ol>
+<li>输入手机号，手机号是数据键盘，有位数及合法性校验；</li>
+<li>输入密码，密码有8-16位以及数字字母组合的校验；</li>
+</ol>
+<h5 id="第三方快捷登录"><a href="#第三方快捷登录" class="headerlink" title="第三方快捷登录"></a>第三方快捷登录</h5><ol>
+<li>点击第三方快捷登录icon，打开第三方app；</li>
+<li>授权成功后，返回马上金融app；</li>
+<li>开始账号绑定，输入手机号和密码；</li>
+</ol>
+<h5 id="改进建议"><a href="#改进建议" class="headerlink" title="改进建议"></a>改进建议</h5><ol>
+<li><p>登录能够支持到验证码登录，目前大部分主流app都已经支持了验证码登录，这样的登录方式更便捷，也更符合人性。优化后的登录界面应该首选验证码登录，附近能够快捷切换到密码登录。</p>
+</li>
+<li><p>支持验证码登录后，这样注册以及第三方快捷登录的验证也可以更简单，没有注册的用户（第三方快捷登录的用户）使用手机号+验证码认就默认为注册（绑定）用户。</p>
+</li>
+<li><p>目前登录的时候没有检验手机号是否已经注册，所以录入未注册的手机号登录，提出是手机号及密码不匹配，提示不够清晰，可以在收入手机号后判断是否注册，如果注册可以引导用户注册。</p>
+</li>
+<li><p>更换手机号的功能建议在登录页面隐藏，放置在设置页面中。</p>
+</li>
+<li><p>app 第一次下载后会申请获取权限，建议除非必要的权限，否则不要申请，因为弹窗特别多，很烦。刚刚注册就要获取相机权限，这个不合理，被拒绝的概率比较大，拒绝后实名认证的时候得让客户去手机系统设置里更改，操作成本大一些。应该在后面实名认证的时候在获取，这个时候获取权限通过率也会高一些。有些权限的申请和场景契合，用户更容易授权。</p>
+</li>
+<li><p>手机号+验证码登录一般流程（竞品招联金融）：</p>
+<p><a href="https://miao.su/image/TS7Q3" target="_blank" rel="noopener"><img src="https://miao.su/images/2019/07/15/WechatIMG99341515.md.jpg" alt="WechatIMG99341515.md.jpg"></a></p>
+</li>
+</ol>
+<h4 id="注册"><a href="#注册" class="headerlink" title="注册"></a>注册</h4><p>目前马上金融app的仅支持手机号+密码的登录方式，注册要素基本都堆积在一个页面上，注册流程大概如下：</p>
+<p><img src="https://miao.su/images/2019/07/15/H593349.png" alt="H593349.png"></p>
+<ol>
+<li>输入手机号，手机号是数据键盘，有位数及合法性校验。但是手机号没有判断是否已经注册过，已经注册过的用户还可以往下走，现实这样的情况比较少出现，但是建议可以直接判断是否注册，如果已注册过则告知用户并前往登录。</li>
+<li>输入密码，密码有8-16位以及数字字母组合的校验。有密码强弱的设计，及时反馈给用户，很人性化。</li>
+<li>获取验证码，点击后先获取图像验证码，在发送短信验证码。这个应该是处于安全的考虑。</li>
+<li>图形验证码，图形验证码有刷新机制，比较注重安全。</li>
+<li>某人勾选相关政策和协议。</li>
+<li>输入完手机号、密码、图形验证码以及短信验证码，注册成功。如果手机号已经注册，此时提示我账号已注册，是否直接登录，用户体验不佳。</li>
+</ol>
+<h5 id="改进建议-1"><a href="#改进建议-1" class="headerlink" title="改进建议"></a>改进建议</h5><ol>
+<li><p>建议页面拆分，拆分成录入手机号页面，输入验证码页面和设置密码等三个页面，这样给用户的认知负荷比较小，每个页面专注于一件事儿，转化率可能会高一些（可以进行埋点或者a/b测试）。</p>
+</li>
+<li><p>注册一开始时输入手机号就校验是否注册，如果注册了则直接引导去登录。这样总比输入完手机号、密码、验证码之后在告诉用户的要好，毕竟现在的流程设计，用户成本比较高。</p>
+</li>
+<li><p>取消勾选后，注册按钮还是高亮显示，这个时候点击又提示我要阅读并勾选，反馈的效果不佳。建议按钮一开始就是禁用置灰，输入框获取焦点后高亮。勾选的逻辑也是这样，取消候选后按钮禁用置灰，勾选够则高亮显示。</p>
+</li>
+<li><p>手机号+验证码注册一般流程（竞品招联金融）：</p>
+<p><a href="https://miao.su/image/TSPVA" target="_blank" rel="noopener"><img src="https://miao.su/images/2019/07/15/WechatIMG994cd89f.md.jpg" alt="WechatIMG994cd89f.md.jpg"></a></p>
+</li>
+</ol>
+<h4 id="实名认证"><a href="#实名认证" class="headerlink" title="实名认证"></a>实名认证</h4><p>实名认证是借款的前置任务，遵循业务成熟的四要素认证（姓名+身份证号+银行卡+手机号），大概流程如下：</p>
+<ol>
+<li>验证身份信息，输入姓名及身份证号码；</li>
+<li>验证银行卡信息，输入卡号、预留手机号及验证码；</li>
+</ol>
+<h5 id="改进建议-2"><a href="#改进建议-2" class="headerlink" title="改进建议"></a>改进建议</h5><ol>
+<li>马上金融 app  会员中心 里有任务的设置，完成相关设置可以奖励积分，但是入口较深，建议将任务模块放到首页，这样用户一旦注册，就可以在首页看到任务，完成后还有奖励，可以提高认证的可能。</li>
+<li>身份证号可以做相关插件，提供输入效率。</li>
+<li>卡号基本都是数据，直接使用数字键盘即可；银行卡号如果能按照xxxx xxxx xxxx xxxx xxx 这样展示就更好；19位的时候卡号换行了，应该能够一行展示完成。</li>
+<li>手机号码也是全键盘输入，应该跟注册登录统一使用数字键盘。</li>
+<li>建议将实名认证拆分成步骤，通过进度条显示目前所在的步骤以及余下的步骤。这方面可以参考券商的开户流程—富途证券账户开通（股票的开户流包括了身份验证、银行卡验证、资料填写、风险披露、拍照验证、签字等。），富途证券账户流程大概拆解成以下六个步骤，每个步骤只完成一件事，并且有进度条显示，透明友好。</li>
+</ol>
+<ul>
+<li>上传身份证正反面，上传完成后反显识别出的信息，用户确认无误后进入到下一步。</li>
+<li>银行卡验证</li>
+<li>资料填写</li>
+<li>风险披露</li>
+<li>拍照验证</li>
+<li>签字</li>
+</ul>
+<h4 id="借款（暂时无法体验）"><a href="#借款（暂时无法体验）" class="headerlink" title="借款（暂时无法体验）"></a>借款（暂时无法体验）</h4><p>马上金融借款之前需完成个人信息认证，包括本人身份证和银行卡信息，选择进入“借款”页面，一共有3种借款产品：现金分期、循环额度和商品贷款（根据我的借款中的tab可以看出）。</p>
+<p>由于体验时机问题，体验时马上金融借款因为资源整合，无法借款，文案提示页面的排榜比较差，可以进行优化。</p>
+<h4 id="商城"><a href="#商城" class="headerlink" title="商城"></a>商城</h4><p>现今分期付款、提前消费已经慢慢成为一种趋势，很多电商平台也推出了分期付款的服务。马上金融把【商城】作为一个独立的版块，提升了部分用户的消费体验。从商城商品的分类来看，主要是数码电子产品、潮流服饰和女性美妆奢侈品等。跟常见的电商平台一样，【商城】版块也推出很多的促销活动，例如今日限时抢购、免息分期、优惠券等。</p>
+<p>同时，商城也有充值中心，提供更多的生活充值服务。</p>
+<p>进入到商城的二级页面后，底部tabbar还存在，可以快捷的前往其他板块。</p>
+<h4 id="还款（未体验）"><a href="#还款（未体验）" class="headerlink" title="还款（未体验）"></a>还款（未体验）</h4><p>用户及时还款是消费信贷类app需要首先考虑的问题，提高还款效率能有效提升用户体验。</p>
+<h3 id="其他功能"><a href="#其他功能" class="headerlink" title="其他功能"></a>其他功能</h3><h4 id="客服、消息"><a href="#客服、消息" class="headerlink" title="客服、消息"></a>客服、消息</h4><p>首页和个人信息页面都设有“消息“和“客服”入口按钮（在首页客服功能出现了两次），用户可以很方便找到，及时为用户解决问题的客服通道和及时的消息通知，能让用户的问题第一时间得到解决，有效提升用户体验。</p>
+<h4 id="个人信息"><a href="#个人信息" class="headerlink" title="个人信息"></a>个人信息</h4><p>个人首页都主要包含了我的借款、我的还款、我的订单、个人信息认证（身份证、银行卡等）等主要信息，用户可随时查看和修改相应的信息。</p>
+<h5 id="改进建议-3"><a href="#改进建议-3" class="headerlink" title="改进建议"></a>改进建议</h5><ol>
+<li>我的tabbar中的很多功能需要登录之后才可以使用，所以建议点击我的tabbar的时候判断用户是否登录，如果未登录则直接跳往登录页面，登录成功后跳往我的页面。（或者通过a/b测试来进行数据跟踪，目前的形式和未登录时点击我的直接登录，那个数据表现好一些）</li>
+<li>设置按钮放置推荐放在右上角，与消息按钮并排，目前放置在底部。</li>
+</ol>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>从公开数据看，2019消费金融公司排行榜中，马上金融位居第二，服务超过6500万用户，市场份额还在不断扩大。从融资能力方面看，马上金融已经拥有多元化的融资能力，除了6大股东存款有力支持，还与400家银行建立合作关系可以拆借资金，此外，马上金融的相关ABS产品即将发行，而相关金融债也在积极筹备，在消费金融领域，马上金融野心勃勃。</p>
+<h5 id="从商业模式和竞争态势上来看"><a href="#从商业模式和竞争态势上来看" class="headerlink" title="从商业模式和竞争态势上来看"></a>从商业模式和竞争态势上来看</h5><p>从商业模式和竞争态势上来看，马上金融对盈利模式的逻辑还是很清晰的—核心还是利率差，能够持续获取多元且低廉的资金，通过互联网获客，在风控安全范围来发放贷款：</p>
+<ol>
+<li>消费者提出分期或者先消费后付款的消费金融服务需求；</li>
+<li>在征信评估和必要的风控模型下，服务商根据消费者所获信用发放消费额度；</li>
+<li>服务商从资金供给方获得资金，提前为消费者付款给供给方；</li>
+<li>供给方拿到资金后，发放商品/服务给消费者；</li>
+<li>消费者分期付款/到期付款（包括利息）给服务商，<strong>此阶段服务商达到获利的商业目的。</strong></li>
+</ol>
+<p>同时要担心的也是最关键的一点，就是如何持续获取低廉的资金，如何持续获取优质的客户（目前的流量价格比较高昂）。</p>
+<p>从整个体验的过程来看，目前马上金融app还没有引进内容系统，这方面可以进行建设，比如购买手机后需要哪些配件，或者根据用户画像来推送相关的内容。</p>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>用户体验是一项系统性工作，需要PM、设计师、开发者、运营人员群策群力，以及不断地摸索、思考、改进，需要兼顾5个层级设计的一致性和关联性，绝非一朝一夕之功。</p>
+<p>当然，由于自身认知水平、思维方式、产品知识积累的局限，很多地方还存在不足，万望指正。</p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>2018中国消费信贷市场研究</p>
+<p>MobData报告|风控浪尖，如何突围 ——互联网消费金融研究报告</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/06/13/《启示录》读书笔记/" rel="next" title="《启示录》读书笔记">
+                <i class="fa fa-chevron-left"></i> 《启示录》读书笔记
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/WechatIMG370.jpeg" alt="chaixiaomu">
+            
+              <p class="site-author-name" itemprop="name">chaixiaomu</p>
+              <p class="site-description motion-element" itemprop="description">不想学习技术的交互设计师不是好的产品经理</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/chaixiaomu" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="chaizizhe@gmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.douban.com/people/62544370/" target="_blank" title="豆瓣">
+                      
+                        <i class="fa fa-fw fa-globe"></i>豆瓣</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.v2ex.com/member/chaixiaomu" target="_blank" title="v2ex">
+                      
+                        <i class="fa fa-fw fa-globe"></i>v2ex</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#体验环境"><span class="nav-number">1.</span> <span class="nav-text">体验环境</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分析目的"><span class="nav-number">2.</span> <span class="nav-text">分析目的</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#消费金融市场现状"><span class="nav-number">3.</span> <span class="nav-text">消费金融市场现状</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#强监管"><span class="nav-number">3.0.1.</span> <span class="nav-text">强监管</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#蓝海万亿级市场"><span class="nav-number">3.0.2.</span> <span class="nav-text">蓝海万亿级市场</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#消费信贷前景可期"><span class="nav-number">3.0.2.1.</span> <span class="nav-text">消费信贷前景可期</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#信贷需求难以被满足"><span class="nav-number">3.0.2.2.</span> <span class="nav-text">信贷需求难以被满足</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#稳格局（1银行系-4非银系）"><span class="nav-number">3.0.3.</span> <span class="nav-text">稳格局（1银行系+4非银系）</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#产业结构"><span class="nav-number">3.0.3.1.</span> <span class="nav-text">产业结构</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#市场格局"><span class="nav-number">3.0.3.2.</span> <span class="nav-text">市场格局</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#金融持牌机构将迎来重大机遇"><span class="nav-number">3.0.4.</span> <span class="nav-text">金融持牌机构将迎来重大机遇</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#借力科技，覆盖多场景"><span class="nav-number">3.0.5.</span> <span class="nav-text">借力科技，覆盖多场景</span></a></li></ol></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#用户分析"><span class="nav-number">4.</span> <span class="nav-text">用户分析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#马上金融产品简介"><span class="nav-number">5.</span> <span class="nav-text">马上金融产品简介</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#官方产品简介"><span class="nav-number">5.1.</span> <span class="nav-text">官方产品简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#产品定位"><span class="nav-number">5.2.</span> <span class="nav-text">产品定位</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#功能分析"><span class="nav-number">6.</span> <span class="nav-text">功能分析</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#产品架构"><span class="nav-number">6.1.</span> <span class="nav-text">产品架构</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#核心功能"><span class="nav-number">6.2.</span> <span class="nav-text">核心功能</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#登录"><span class="nav-number">6.2.1.</span> <span class="nav-text">登录</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#手机号-验证码登录"><span class="nav-number">6.2.1.1.</span> <span class="nav-text">手机号+验证码登录</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#第三方快捷登录"><span class="nav-number">6.2.1.2.</span> <span class="nav-text">第三方快捷登录</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#改进建议"><span class="nav-number">6.2.1.3.</span> <span class="nav-text">改进建议</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#注册"><span class="nav-number">6.2.2.</span> <span class="nav-text">注册</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#改进建议-1"><span class="nav-number">6.2.2.1.</span> <span class="nav-text">改进建议</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#实名认证"><span class="nav-number">6.2.3.</span> <span class="nav-text">实名认证</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#改进建议-2"><span class="nav-number">6.2.3.1.</span> <span class="nav-text">改进建议</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#借款（暂时无法体验）"><span class="nav-number">6.2.4.</span> <span class="nav-text">借款（暂时无法体验）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#商城"><span class="nav-number">6.2.5.</span> <span class="nav-text">商城</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#还款（未体验）"><span class="nav-number">6.2.6.</span> <span class="nav-text">还款（未体验）</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#其他功能"><span class="nav-number">6.3.</span> <span class="nav-text">其他功能</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#客服、消息"><span class="nav-number">6.3.1.</span> <span class="nav-text">客服、消息</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#个人信息"><span class="nav-number">6.3.2.</span> <span class="nav-text">个人信息</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#改进建议-3"><span class="nav-number">6.3.2.1.</span> <span class="nav-text">改进建议</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number">7.</span> <span class="nav-text">总结</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#从商业模式和竞争态势上来看"><span class="nav-number">7.0.0.1.</span> <span class="nav-text">从商业模式和竞争态势上来看</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#最后"><span class="nav-number">8.</span> <span class="nav-text">最后</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考资料"><span class="nav-number">9.</span> <span class="nav-text">参考资料</span></a></li></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">chaixiaomu</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
